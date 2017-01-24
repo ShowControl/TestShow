@@ -9,11 +9,8 @@
 
     <program id="sound_effects">
       <sounds href="Pauline_sounds.xml">
-	<sound>
-	  <name>invalid</name>
-	  <wav_file_name>invalid</wav_file_name>
-	</sound>
       </sounds>
+      <port>1500</port>
       <sound_sequence href="Pauline_sound_sequence.xml"/>
     </program>
 
