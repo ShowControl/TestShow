@@ -18,7 +18,7 @@
       <name>wait_1</name>
       <type>wait</type>
       <next>offer_saw_sound</next>
-      <time_to_wait>1000000000</time_to_wait>
+      <time_to_wait>5.0</time_to_wait>
       <text_to_display>wait five seconds</text_to_display>
       <next_completion>background_sound</next_completion>
     </sequence_item>
