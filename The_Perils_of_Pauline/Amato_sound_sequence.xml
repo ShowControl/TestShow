@@ -77,7 +77,7 @@
     <sequence_item>
       <name>telephone-ring-8</name>
       <type>wait</type>
-      <time_to_wait>1000000000</time_to_wait>
+      <time_to_wait>1</time_to_wait>
       <text_to_display>wait for ringing to finish</text_to_display>
       <next_completion>telephone-ring</next_completion>
     </sequence_item>
