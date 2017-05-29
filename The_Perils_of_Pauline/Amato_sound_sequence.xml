@@ -35,7 +35,7 @@
     
     <sequence_item>
       <name>telephone-ring-4</name>
-      <type>stop</type>
+      <type>stop_sound</type>
       <tag>telephone-ring</tag>
     </sequence_item>
 
