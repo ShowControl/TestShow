@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file contains the global information ShowControl uses.
 ShowControl expects this file to exist (on a linux platform)
-here: ~/.showcontrol/ShowControl_config.xml-->
+here: ~/.config/ShowControl/ShowControl_config.xml-->
 <!-- The outer structure name is "show_control" to identify
      XML files belonging to the show_control project.  If the user
      tries to read an XML file intended for some other application,
@@ -37,7 +37,6 @@ here: ~/.showcontrol/ShowControl_config.xml-->
         <exitwithce>true</exitwithce>
       </component>
       <component id="sound_effects">
-        <port>1500</port>
       </component>
       <component id="sound_mixer">
         <port>1501</port>
