@@ -11,6 +11,7 @@
       <sounds href="Pauline_sounds.xml">
       </sounds>
       <port>1500</port>
+      <speaker_count>8</speaker_count>
       <sound_sequence href="Pauline_sound_sequence.xml"/>
     </program>
 

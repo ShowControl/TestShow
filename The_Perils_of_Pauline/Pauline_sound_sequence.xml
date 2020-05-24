@@ -17,10 +17,20 @@
     <sequence_item>
       <name>wait_1</name>
       <type>wait</type>
-      <next>offer_saw_sound</next>
+      <next>background_sound</next>
       <time_to_wait>5.0</time_to_wait>
       <text_to_display>wait five seconds</text_to_display>
-      <next_completion>background_sound</next_completion>
+      <next_completion>offer_drumming</next_completion>
+    </sequence_item>
+
+    <sequence_item>
+      <name>offer_drumming</name>
+      <type>offer_sound</type>
+      <next_to_start>play_drums</next_to_start>
+      <cluster_number>4</cluster_number>
+      <text_to_display>drumming</text_to_display>
+      <OSC_cue>2</OSC_cue>
+      <next>offer_saw_sound</next>
     </sequence_item>
 
     <sequence_item>
@@ -31,6 +41,16 @@
       <text_to_display>saw</text_to_display>
       <OSC_cue>1</OSC_cue>
       <next>telephone-ring</next>
+    </sequence_item>
+
+    <sequence_item>
+      <name>play_drums</name>
+      <type>start_sound</type>
+      <sound_name>drumming</sound_name>
+      <cluster_number>4</cluster_number>
+      <text_to_display>drumming</text_to_display>
+      <importance>4</importance>
+      <next_completion>play_drums</next_completion>
     </sequence_item>
 
     <sequence_item>
