@@ -40,6 +40,26 @@
       <loop_from_time>7.325798</loop_from_time>
       <loop_to_time>2.554220</loop_to_time>
       <release_duration_time>∞</release_duration_time>
+      <channels>
+	<channel>
+	  <number>0</number>
+	  <speakers>
+	    <speaker>
+	      <name>side_left</name>
+	      <volume_level>1.0</volume_level>
+	    </speaker>
+	  </speakers>
+	</channel>
+	<channel>
+	  <number>1</number>
+	  <speakers>
+	    <speaker>
+	      <name>side_right</name>
+	      <volume_level>1.0</volume_level>
+	    </speaker>
+	  </speakers>
+	</channel>
+      </channels>  
     </sound>
 
     <sound>
